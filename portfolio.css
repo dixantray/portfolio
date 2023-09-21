@@ -120,6 +120,11 @@ footer {
 
 @media (max-width: 600px) {
     /* Adjust responsive up to 600px */
+   body, h1, h2, ul, li, p {
+    overflow-x: hidden;
+    }
+
+    
     header {
         padding: 5px;
     }
