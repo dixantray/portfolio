@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAY Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css"
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Dixant Ray</h1>
+        <p>Front-End Developer | Graphic Designer</p>
+    </section>
+
+    <section id="about" class="about-content">
+        <h2>About Me</h2>
+        <p>Hello, I'm Dixant Ray, a passionate web developer with a love for crafting digital experiences.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-gallery">
+            <!-- Add your project thumbnails here -->
+            <div class="portfolio-item">
+                <img src="project1.png" alt="Project 1" width="250" height="150">
+                <h3>Car Rental Website</h3>
+                <p>This Car Rental System project is designed to aid 
+                    the car rental company to enable renting of cars 
+                    through an online system. It helps the users to
+                     search for available cars view profile and book 
+                     the cars for the time period. It has a user-friendly 
+                     interface which helps the user to check for cars and
+                      rent them for the period specified. .</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="project2.png" alt="Project 2" width="400" height="400">
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </section>
+
+    <section id="resume" class="resume-link">
+        <a href="resume2.html" target="">Download Resume/CV</a>
+    </section>
+
+    <section id="contact" class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
